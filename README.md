@@ -23,7 +23,8 @@ Implementação BACKEND de uma API RESTFULL, para registro e acesso a transaçõ
 ## Dependências
 * Java 11 LTS
 * Spring Boot [versão 2.6.4]
-* h2 DataBase 
+* h2 DataBase
+* Swagger 
 
 ## Build
 
@@ -54,6 +55,8 @@ docker run -d -p 8080:8080 --name r4-transaction-docker r4-transaction
 
 
 ## :ballot_box_with_check: Endpoints ##
+
+**OpenApi Doc - Swagger** : `/swagger-ui.html`
 
 **[POST]**    `/accounts`
 
